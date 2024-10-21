@@ -21,7 +21,7 @@ if __name__ == '__main__':
         try:
             value = function_a(x)
             sign = get_sign(value)
-
+            print(sign)
  # Break the loop if you find a solution
         except ValueError as e:
             print(e)  # Print the error message when division by zero occurs
